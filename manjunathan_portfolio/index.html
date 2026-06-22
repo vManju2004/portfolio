@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manjunathan V — Data Science &amp; ML Engineer</title>
+<meta name="description" content="Portfolio of Manjunathan V, M.Tech Data Science student building machine learning systems for IoT security, agriculture, and predictive analytics.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%2310172A'/%3E%3Ctext x='50' y='68' font-size='58' fill='%23D9A441' font-family='Georgia,serif' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="#top">MV<span class="nav-logo-dot">.</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" id="top">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">M.TECH · DATA SCIENCE · VIT VELLORE</p>
+        <h1>Manjunathan&nbsp;V</h1>
+        <p class="hero-sub">I train machine learning systems until the numbers stop arguing — from malware traffic on IoT networks to leaf disease in potato crops.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View experiments</a>
+          <a class="btn btn-ghost" href="mailto:vmanjunathan8@gmail.com">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="hero-chart-wrap">
+        <p class="chart-label">VALIDATION ACCURACY — LIVE RUN</p>
+        <svg class="hero-chart" viewBox="0 0 400 220" preserveAspectRatio="none" aria-hidden="true">
+          <g class="chart-grid">
+            <line x1="0" y1="40" x2="400" y2="40"></line>
+            <line x1="0" y1="80" x2="400" y2="80"></line>
+            <line x1="0" y1="120" x2="400" y2="120"></line>
+            <line x1="0" y1="160" x2="400" y2="160"></line>
+            <line x1="0" y1="200" x2="400" y2="200"></line>
+          </g>
+          <path id="convergencePath" class="chart-path"
+            d="M10,196 C 40,150 65,110 95,90 C 125,72 155,58 190,48 C 225,42 260,38 295,36 C 325,34.5 355,33.5 390,33">
+          </path>
+          <circle id="chartDot" class="chart-dot" cx="390" cy="33" r="5"></circle>
+        </svg>
+        <div class="chart-readout">
+          <span><span id="chartCounter">00.00</span>%</span>
+          <span class="chart-readout-label">epoch <span id="epochCounter">0</span>/50</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-metrics">
+      <div class="metric"><span class="metric-num">99.59%</span><span class="metric-label">IoT Malware Detection</span></div>
+      <div class="metric"><span class="metric-num">98.83%</span><span class="metric-label">Potato Leaf Disease</span></div>
+      <div class="metric"><span class="metric-num">94%</span><span class="metric-label">Crop Yield Prediction</span></div>
+      <div class="metric"><span class="metric-num">87%</span><span class="metric-label">Purchase Prediction</span></div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="section-inner">
+      <p class="eyebrow">ABOUT</p>
+      <h2>Profile</h2>
+      <div class="about-body">
+        <p>I'm a final-year M.Tech (Integrated) student in Data Science at VIT Vellore, spending most of my time getting models from "it runs" to "it's production-grade." That's meant federated CNN-LSTMs for IoT security, fine-tuned CNNs for crop disease, and ensemble pipelines for agricultural forecasting — usually landing in the high 90s on accuracy, and always shipped behind an API rather than left in a notebook.</p>
+        <p>I work mainly in Python with TensorFlow and PyTorch, and I'm especially interested in federated learning — training strong models without ever centralizing the raw data.</p>
+      </div>
+      <ul class="tag-row">
+        <li>Machine Learning</li>
+        <li>Data Science</li>
+        <li>Artificial Intelligence</li>
+        <li>Applied AI for Real-World Problems</li>
+        <li>Data Visualization</li>
+        <li>Data Analysis</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="section-inner">
+      <p class="eyebrow">CAPABILITIES</p>
+      <h2>Skills &amp; Tools</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <ul class="chip-list"><li>Python</li><li>SQL</li><li>Java</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Data Science &amp; ML</h3>
+          <ul class="chip-list"><li>Machine Learning</li><li>Data Analysis</li><li>Data Visualization</li><li>Statistical Modeling</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>AI Technologies</h3>
+          <ul class="chip-list"><li>Neural Networks</li><li>Predictive Analytics</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Tools &amp; Frameworks</h3>
+          <ul class="chip-list"><li>TensorFlow</li><li>PyTorch</li><li>Scikit-learn</li><li>Pandas</li><li>NumPy</li><li>Matplotlib</li><li>Seaborn</li><li>Excel</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Technologies</h3>
+          <ul class="chip-list"><li>IoT</li><li>Cloud Computing</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Practice</h3>
+          <ul class="chip-list"><li>Algorithm Design</li><li>Problem Solving</li><li>Technical Documentation</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="section-inner">
+      <p class="eyebrow">EXPERIMENT LOG</p>
+      <h2>Projects</h2>
+
+      <div class="project-list">
+
+        <article class="project-card">
+          <div class="project-main">
+            <p class="eyebrow eyebrow-small">EXPERIMENT 01 — DEC 2025</p>
+            <h3>IoT Malware Detection with Hybrid 2D CNN-LSTM</h3>
+            <p class="project-stack">TensorFlow · Federated Learning · FedAvg / FedProx / FedAvgM / FedMedian</p>
+            <ul class="project-points">
+              <li>Detects malware in IoT network traffic without any client ever sharing raw data.</li>
+              <li>Combines convolution for spatial patterns with LSTM for traffic sequences over time.</li>
+              <li>Smarter aggregation and model compression cut inter-round communication by 40%.</li>
+            </ul>
+          </div>
+          <div class="project-readout">
+            <div class="readout-row"><span class="readout-label">Centralized accuracy</span><span class="readout-value">99.59%</span></div>
+            <div class="readout-row"><span class="readout-label">Federated accuracy</span><span class="readout-value">97%+</span></div>
+            <div class="readout-row"><span class="readout-label">Comm. overhead</span><span class="readout-value">−40%</span></div>
+            <div class="readout-row"><span class="readout-label">Dataset</span><span class="readout-value">IoT-23 · 10k+ flows</span></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-main">
+            <p class="eyebrow eyebrow-small">EXPERIMENT 02 — NOV 2025</p>
+            <h3>Potato Leaf Disease Detection — Hybrid VGG16S</h3>
+            <p class="project-stack">PyTorch · CUDA · Transfer Learning</p>
+            <ul class="project-points">
+              <li>Fine-tunes a VGG16-based model in two phases: classifier head, then unfrozen backbone.</li>
+              <li>Rebalanced the Plant Village dataset, growing the healthy-leaf class from 152 to 1,000 images.</li>
+              <li>Trains on GPU via CUDA to keep fine-tuning iterations fast.</li>
+            </ul>
+          </div>
+          <div class="project-readout">
+            <div class="readout-row"><span class="readout-label">Accuracy</span><span class="readout-value">98.83%</span></div>
+            <div class="readout-row"><span class="readout-label">AUC</span><span class="readout-value">99.89%</span></div>
+            <div class="readout-row"><span class="readout-label">Precision</span><span class="readout-value">98.89%</span></div>
+            <div class="readout-row"><span class="readout-label">Recall</span><span class="readout-value">98.79%</span></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-main">
+            <p class="eyebrow eyebrow-small">EXPERIMENT 03 — 2024–2025</p>
+            <h3>Machine Learning Crop &amp; Yield Prediction System</h3>
+            <p class="project-stack">Python · Scikit-learn · Random Forest · Gradient Boosting</p>
+            <ul class="project-points">
+              <li>Ensemble pipeline recommends crops and forecasts yield from agricultural records.</li>
+              <li>Matplotlib and Seaborn dashboards turn predictions into decisions farmers can act on.</li>
+              <li>Shipped behind a Flask API so the model reaches a mobile app, not just a notebook.</li>
+            </ul>
+          </div>
+          <div class="project-readout">
+            <div class="readout-row"><span class="readout-label">Yield accuracy</span><span class="readout-value">94%</span></div>
+            <div class="readout-row"><span class="readout-label">Price-trend accuracy</span><span class="readout-value">89%</span></div>
+            <div class="readout-row"><span class="readout-label">Records</span><span class="readout-value">50,000+</span></div>
+            <div class="readout-row"><span class="readout-label">Farmers served</span><span class="readout-value">500+</span></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-main">
+            <p class="eyebrow eyebrow-small">EXPERIMENT 04 — 2024</p>
+            <h3>Customer Purchase Prediction System</h3>
+            <p class="project-stack">Python · Logistic Regression · Decision Trees · Neural Networks</p>
+            <ul class="project-points">
+              <li>Forecasts whether a customer will buy, blending three model families.</li>
+              <li>Feature engineering — encoding, scaling, tuning — added 25% accuracy over baseline.</li>
+              <li>Serves live recommendations through a Flask API in production.</li>
+            </ul>
+          </div>
+          <div class="project-readout">
+            <div class="readout-row"><span class="readout-label">Accuracy</span><span class="readout-value">87%</span></div>
+            <div class="readout-row"><span class="readout-label">Performance gain</span><span class="readout-value">+25%</span></div>
+            <div class="readout-row"><span class="readout-label">Records</span><span class="readout-value">100,000+</span></div>
+            <div class="readout-row"><span class="readout-label">Predictions / day</span><span class="readout-value">1,000+</span></div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="education" id="education">
+    <div class="section-inner">
+      <p class="eyebrow">RECORD</p>
+      <h2>Education &amp; Certifications</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <p class="timeline-date">Aug 2022 – May 2027</p>
+          <h3>M.Tech (Integrated), CSE — Data Science</h3>
+          <p class="timeline-org">Vellore Institute of Technology (VIT), Vellore</p>
+          <p class="timeline-detail">CGPA 8.23 / 10.0</p>
+        </div>
+        <div class="timeline-item">
+          <p class="timeline-date">2022</p>
+          <h3>Higher Secondary Certificate (12th Grade)</h3>
+          <p class="timeline-org">Spark Matriculation Higher Secondary School, Thirumalaikodi, Vellore</p>
+          <p class="timeline-detail">76%</p>
+        </div>
+      </div>
+
+      <h3 class="cert-heading">Certifications</h3>
+      <div class="cert-grid">
+        <div class="cert-card">
+          <p class="cert-date">Sep–Nov 2025</p>
+          <h4>Python for Data Analysis and Visualization</h4>
+          <p class="cert-org">VIT, School of Electronics Engineering</p>
+        </div>
+        <div class="cert-card">
+          <p class="cert-date">May 2025</p>
+          <h4>AI and Data Scientist</h4>
+          <p class="cert-org">One Roadmap</p>
+        </div>
+        <div class="cert-card">
+          <p class="cert-date">May 2025</p>
+          <h4>Data Analyst</h4>
+          <p class="cert-org">One Roadmap</p>
+        </div>
+        <div class="cert-card">
+          <p class="cert-date">May 2025</p>
+          <h4>Python, SQL, Excel</h4>
+          <p class="cert-org">One Roadmap</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="section-inner contact-inner">
+      <p class="eyebrow">NEXT RUN</p>
+      <h2>Let's build something that converges.</h2>
+      <p>Open to research collaborations, internships, and roles in ML and data science.</p>
+      <div class="contact-links">
+        <a href="mailto:vmanjunathan8@gmail.com">vmanjunathan8@gmail.com</a>
+        <a href="tel:+919566316830">+91 95663 16830</a>
+        <a href="https://linkedin.com/in/manjunathan-v" target="_blank" rel="noopener">linkedin.com/in/manjunathan-v</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="section-inner footer-inner">
+    <p>© <span id="year"></span> Manjunathan V. Built with data, not templates.</p>
+    <p class="footer-location">Vellore, Tamil Nadu, India</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
